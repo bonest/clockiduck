@@ -1,0 +1,17 @@
+[project]
+name = "clockiduck"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Henrik Gregersen", email = "hgr@alfapeople.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+clockiduck = "clockiduck:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
