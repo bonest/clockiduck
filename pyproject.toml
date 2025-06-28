@@ -7,10 +7,14 @@ authors = [
     { name = "Henrik Gregersen", email = "hgr@alfapeople.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "requests",
+    "pydantic-settings",
+    "duckdb",
+]
 
 [project.scripts]
-clockiduck = "clockiduck:main"
+clociduck-sync = "clockiduck.sync:sync_clockify_to_db"
 
 [build-system]
 requires = ["hatchling"]
