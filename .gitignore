@@ -11,3 +11,7 @@ wheels/
 
 # Environment file
 .env
+
+# Database files
+*.db
+*.db*
